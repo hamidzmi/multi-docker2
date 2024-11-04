@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "exp": "57.2.1",
+        "pg": "8.3.0 ",
+        "redis": "2.8.0",
+        "cors": "2.8.4",
+        "nodemon": "1.18.3",
+        "body-parser": "*"
+    },
+    "scripts": {
+        "dev": "NODE_ENV=development nodemon",
+        "start": "NODE_ENV=production node index.js"
+    }
+}
